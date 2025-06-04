@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Settings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1 class="profile-title">Profile settings</h1>
+    <section class="profile-card">
+      <form class="profile-form">
+        <div class="profile-image-section">
+          <div class="profile-image-placeholder">
+            <img src="profile-1.svg" alt="Profile Icon" class="profile-img"/>
+          </div>
+          <p>Image must be 256 × 256px – max 2MB</p>
+          <div class="profile-image-actions">
+            <button type="button" class="btn upload-btn">
+              <img src="upload.svg" alt="Upload Icon" class="icon"/> Upload Profile Image
+            </button>
+            <button type="button" class="btn delete-btn">
+              <img src="Trash.svg" alt="Delete Icon" class="icon"/> Delete Image
+            </button>
+          </div>
+        </div>
+        <div class="profile-fields">
+          <div class="input-row">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="example@mail.com" required>
+            </div>
+            <div class="input-group">
+              <label for="job">Job title</label>
+              <input type="text" id="job" placeholder="Enter your job title">
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+          </div>
+          <div class="input-group">
+            <label for="bio">Bio</label>
+            <textarea id="bio" rows="4" placeholder="Enter a short introduction.."></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn save-btn">
+          Save
+        </button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevPort - Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="auth-container">
+    <div class="auth-card">
+      <img src="Logo.svg" alt="DevPort Logo" class="logo">
+      <h2 class="app-title">DevPort</h2>
+
+      <h1 class="auth-title">Create your account</h1>
+      <p class="auth-subtitle">Enter the fields below to get started</p>
+
+       <button class="gitHub-btn">
+        <img src="github.svg" alt="GitHub Icon" class="github-icon">
+        Sign in with GitHub
+      </button>
+
+
+      <div class="divider"><span>or</span></div>
+
+      <form>
+        <input type="email" placeholder="Enter email" required>
+        <input type="password" placeholder="Enter a password" required>
+        
+        <!-- Password rules list -->
+      <ul class="password-rules">
+  <li><img src="check circle-1.svg" alt="" class="rule-icon" /> one lower case character</li>
+  <li><img src="check circle-1.svg" alt="" class="rule-icon" /> one uppercase character</li>
+  <li><img src="check circle-1.svg" alt="" class="rule-icon" /> one number</li>
+  <li><img src="check circle-1.svg" alt="" class="rule-icon" /> one special character</li>
+  <li><img src="check circle.svg" alt="" class="rule-icon" /> 8 character minimum</li>
+</ul>
+
+
+        <button type="submit" class="sign-in-btn">Create account</button>
+      </form>
+
+      <p class="signup-link">
+        Already have an account? <a href="signin.html">Log in</a>
+      </p>
+    </div>
+  </main>
+</body>
+</html>
+
